@@ -9,44 +9,53 @@
     <h1>Dar El Halwa</h1>
     <header>
         <h1>Patisserie fine tunisienne depuis 1900</h1>
+        <figure>
+            <img src="images.PNG" alt="Vitrine garnie de mignardises, cornes de gazelle et makrouds">
+            <figcaption>Notre vitrine de mignardises traditionnelles.</figcaption>
+        </figure>
     </header>
-    <nav>
+    <nav id="nav">
         <ul>
-            <li>A propos</li>
-            <li>Nos produits</li>
-            <li>Nos services</li>
-            <li>Contact</li>
+            <li><a href="#apropos">A propos</a></li>
+            <li><a href="#produits">Nos produits</a></li>
+            <li><a href="#services">Nos services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="carte.html">Carte des prix</a></li>
         </ul>
     </nav>
     <main>
-        <section>
+        <section id="apropos">
             <h2>A propos</h2>
+            <p>
             Un monde magique de gateries du quotidien et de petits plaisirs de la bouche. Nous proposons 
             une gamme variee de mignardises, patisseries traditionnelles, chocolats, macarons sucres et 
             sales, brochettes et verinnes.
+            </p>
+            <p><a href="#nav">Retour au sommaire</a></p>
         </section>
-        <section>
+        <section id="nos produits">
             <h2>Nos produits</h2>
             <ul>
                 <li>
-                    <strong>Le sucre fin</strong>
+                    <strong>Le sucre fin :</strong>
                     <em> (gateaux, morceaux, bouchees sucrees, glaces)</em>
                 </li>
                 <li>
-                    <strong>Le sale fin</strong>
+                    <strong>Le sale fin :</strong>
                     <em>(bouchees froides, brochettes, verrines froides)</em>
                 </li>
                 <li>
-                    <strong>Pains & viennoiseries</strong>
+                    <strong>Pains & viennoiseries :</strong>
                     <em>(pain, viennoiseries)</em>
                 </li>
                 <li>
-                    <strong>L'epicerie fine</strong>
+                    <strong>L'epicerie fine :</strong>
                     <em>(confitures, miels, granola)</em>
                 </li>
             </ul>
+            <p><a href="#nav">Retour au sommaire</a></p>
         </section>
-        <section>
+        <section id="nos services">
             <h2>Nos services</h2>
             <dl>
                 <dt>Expedition</dt>
@@ -64,16 +73,44 @@
                     pour vous orienter.
                 </dd>
             </dl>
+            <p><a href="#nav">Retour au sommaire</a></p>
         </section>
-        <section>
+        <section id="temoignages">
+            <h2>Ils parlent de nous</h2>
+            <article>
+                <h3>Témoignage vidéo</h3>
+                <video controls width="600">
+                    <source src="medias/temoignage.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture de vidéo HTML5.
+                </video>
+            </article>
+            <article>
+                <h3>Avis clients (Audio)</h3>
+                <audio controls>
+                    <source src="medias/avis-clients.mp3" type="audio/mpeg">
+                    Votre navigateur ne supporte pas la lecture d'audio HTML5.
+                </audio>
+            </article>
+        </section>
+        <section id="contact">
             <h2>Contact</h2>
-            <ol>
-                <li>Route de Tunis km 5, Sfax 3044, Tunisie</li>
-                <li>contact@darelhalwa.tn</li>
-                <li>+216 74 000 000</li>
-            </ol>
+            <address>
+                <p>11 Route de Teniour km 3, Sfax 3000, Tunisie</p>
+                <p>
+                    <a href="mailto:contact@darelhalwa.tn?subject=Demande%20de%20renseignements">Demande de renseignements</a>
+                </p>
+            </address>
+            <p><a href="#nav">Retour au sommaire</a></p>
         </section>
     </main>
-    <footer>Patisserie fine tunisienne depuis 1900</footer>
+    <footer>
+        <h3>Suivez-nous</h3>
+        <ul>
+            <li><a href="https://www.facebook.com/darelhalwa" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://www.instagram.com/darelhalwa" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/darelhalwa" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+        <p>Patisserie Fine Tunisienne depuis 1980</p>
+    </footer>
 </body>
 </html>
